@@ -1,0 +1,6 @@
+.venv
+database/*
+!database/.gitignore
+__pycache__
+.env
+nuxt/

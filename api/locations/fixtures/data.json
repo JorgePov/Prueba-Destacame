@@ -1,0 +1,46 @@
+[
+  {
+    "model":"locations.traveler",
+    "fields":{
+      "id_card":12345,
+      "first_name":"juana",
+      "last_name":"de arco",
+      "age":25,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"locations.traveler",
+    "fields":{
+      "id_card":45287,
+      "first_name":"juano",
+      "last_name":"de ballesta",
+      "age":40,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"locations.location",
+    "pk":1,
+    "fields":{
+      "traveler":45287,
+      "travel":1,
+      "location_number":3,
+      "travel_date":"2022-09-11 06:28:04.543746+00",
+      "boarding_time":"08:00:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"locations.location",
+    "pk":2,
+    "fields":{
+      "traveler":12345,
+      "travel":2,
+      "location_number":10,
+      "travel_date":"2022-09-11 06:28:04.543746+00",
+      "boarding_time":"09:00:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  }
+]

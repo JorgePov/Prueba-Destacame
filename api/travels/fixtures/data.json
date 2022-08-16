@@ -1,0 +1,281 @@
+[
+  {
+    "model":"travels.bus",
+    "fields":{
+      "bus_plate":"MUR32F",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.bus",
+    "fields":{
+      "bus_plate":"PUS32G",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.bus",
+    "fields":{
+      "bus_plate":"DUF32H",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.journey",
+    "pk":1,
+    "fields":{
+      "destination":"Neiva",
+      "origin":"Paipa",
+      "price":20000,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.journey",
+    "pk":2,
+    "fields":{
+      "destination":"Soacha",
+      "origin":"Apulo",
+      "price":20000,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":1,
+    "fields":{
+      "departure_time":"01:00:00",
+      "cases_closing":"00:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":2,
+    "fields":{
+      "departure_time":"02:00:00",
+      "cases_closing":"01:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":3,
+    "fields":{
+      "departure_time":"03:00:00",
+      "cases_closing":"02:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":4,
+    "fields":{
+      "departure_time":"04:00:00",
+      "cases_closing":"03:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":5,
+    "fields":{
+      "departure_time":"05:00:00",
+      "cases_closing":"04:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":6,
+    "fields":{
+      "departure_time":"06:00:00",
+      "cases_closing":"05:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":7,
+    "fields":{
+      "departure_time":"07:00:00",
+      "cases_closing":"06:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":8,
+    "fields":{
+      "departure_time":"08:00:00",
+      "cases_closing":"07:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":9,
+    "fields":{
+      "departure_time":"09:00:00",
+      "cases_closing":"08:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":10,
+    "fields":{
+      "departure_time":"10:00:00",
+      "cases_closing":"09:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":11,
+    "fields":{
+      "departure_time":"11:00:00",
+      "cases_closing":"10:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":12,
+    "fields":{
+      "departure_time":"12:00:00",
+      "cases_closing":"11:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":13,
+    "fields":{
+      "departure_time":"13:00:00",
+      "cases_closing":"12:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":14,
+    "fields":{
+      "departure_time":"14:00:00",
+      "cases_closing":"13:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":15,
+    "fields":{
+      "departure_time":"15:00:00",
+      "cases_closing":"14:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":16,
+    "fields":{
+      "departure_time":"16:00:00",
+      "cases_closing":"15:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":17,
+    "fields":{
+      "departure_time":"17:00:00",
+      "cases_closing":"16:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":18,
+    "fields":{
+      "departure_time":"18:00:00",
+      "cases_closing":"17:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":19,
+    "fields":{
+      "departure_time":"19:00:00",
+      "cases_closing":"18:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":20,
+    "fields":{
+      "departure_time":"20:00:00",
+      "cases_closing":"19:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":21,
+    "fields":{
+      "departure_time":"21:00:00",
+      "cases_closing":"20:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":22,
+    "fields":{
+      "departure_time":"22:00:00",
+      "cases_closing":"21:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":23,
+    "fields":{
+      "departure_time":"23:00:00",
+      "cases_closing":"22:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.schedule",
+    "pk":24,
+    "fields":{
+      "departure_time":"00:00:00",
+      "cases_closing":"23:50:00",
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.travel",
+    "pk":1,
+    "fields":{
+      "bus":"MUR32F",
+      "journey":1,
+      "scheduled":1,
+      "driver":2,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  },
+  {
+    "model":"travels.travel",
+    "pk":2,
+    "fields":{
+      "bus":"DUF32H",
+      "journey":2,
+      "scheduled":2,
+      "driver":2,
+      "created_at":"2022-08-11 06:28:04.543746+00"
+    }
+  }
+]
