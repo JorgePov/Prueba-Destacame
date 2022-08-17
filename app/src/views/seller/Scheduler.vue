@@ -78,7 +78,6 @@ export default {
       this.$router.push("/seller")
     },
     nextStep(index) {
-      alert(this.value)
       const { cases_closing, departure_time, id } = this.schedule.find(r => r.id == index);
       const dataPicked = new Date(this.value)
       let travel_date = ""
@@ -87,8 +86,6 @@ export default {
       }else{
         travel_date = `${dataPicked.getFullYear()}-${dataPicked.getMonth() + 1}-${dataPicked.getDate()} ${departure_time}`
       }
-
-      console.log(travel_date.toString())
       this.$store.commit("seller/setSchedule", { travel_date, boarding_time: cases_closing })
       this.$store.commit("aux/setIdSchedule", id)
       this.$store.commit("aux/setProcessSeller", "locations")
